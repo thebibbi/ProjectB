@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Environment variables
+.env
+.env.local
+*.env
+
+# Neo4j
+neo4j_data/
+neo4j_logs/
+
+# FAISS indexes
+data/indexes/*.index
+data/indexes/*.pkl
+*.index
+*.pkl
+
+# Model weights
+data/models/*.onnx
+data/models/*.pth
+data/models/*.pt
+data/models/*.bin
+*.onnx
+*.pth
+*.pt
+*.bin
+
+# Video files (large)
+data/test_videos/*.mp4
+data/test_videos/*.avi
+data/test_videos/*.mov
+data/test_videos/*.mkv
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output data
+data/output/*
+*.png
+*.jpg
+*.jpeg
+
+# Keep directories but not contents
+!data/test_videos/.gitkeep
+!data/models/.gitkeep
+!data/output/.gitkeep
+!data/indexes/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Backups
+*.backup
+*.bak
+
+# Database dumps
+*.dump
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+coverage.xml
